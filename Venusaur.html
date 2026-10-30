@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to Locke-Venusaur'</title>
+    <link rel="stylesheet" href='C:\Users\Aluno\Documents\Ana Lu. códigos\Champions guide\estilo-venusaur.css'>
+  </head>
+  <body id="pagina-pokemon" data-pokemon="Venusaur">
+
+    <header>
+      <h1 id="topo">VENUSAUR</h1>
+      <a class="botao-info" href="Trabalho- guia champions.html">Voltar</a>
+    </header>
+  
+    <div class="um">
+        <img class="FRLG" src="C:\Users\Aluno\Documents\Ana Lu. códigos\Champions guide\Champions assets\venusaur take 2.jfif">
+        <div id="grafico">
+          <h1 class="titulo"> STATS BASE</h1>
+        </div>
+    </div>
+
+    <section class="tabela-habilidades">
+      <h2>Habilidades</h2>
+    
+      <div class="habilidades">
+        <div class="habilidade">
+          <h3 class="habilidade-titulo" style="--cor-fundo: #3fec48;">
+            Overgrow
+          </h3>
+          <p>
+            Aumenta em 50% o poder de golpes do tipo GRASS quando o usuário está
+            com menos de um terço de seu HP total.
+          </p>
+        </div>
+    
+        <div class="habilidade">
+          <h3 class="habilidade-titulo" style="--cor-fundo: #555555;">
+            --
+          </h3>
+          <p>--</p>
+        </div>
+      </div>
+    </section>
+    <div class="tabelas-lado-a-lado">
+      <section class="tabela">
+        <h2 class="tabela-titulo">TIPAGEM</h2>
+    
+        <div class="tabela-elementos">
+          <div class="elemento" style="--cor-fundo: #3fec48;">
+            GRASS
+          </div>
+    
+          <div class="elemento" style="--cor-fundo: #a632c3;">
+            POISON
+          </div>
+        </div>
+      </section>
+
+      <section class="tabela-efetividade">
+        <h2>EFETIVIDADE</h2>
+    
+        <div class="grupo-efetividade">
+          <h3>Resistências</h3>
+          <div class="lista-tipos">
+            <div class="tipo" style="--cor-fundo: #329adf;">
+              WATER
+            </div>
+            <div class="tipo" style="--cor-fundo: #e8d82e;">
+              ELECTRIC
+            </div>
+            <div class="tipo" style="--cor-fundo: #3fec48;">
+              GRASS
+            </div>
+            <div class="tipo" style="--cor-fundo: #ae3a1d;">
+              FIGHTING
+            </div>
+          </div>
+        </div>
+    
+        <div class="grupo-efetividade">
+          <h3>Fraquezas</h3>
+          <div class="lista-tipos">
+            <div class="tipo" style="--cor-fundo: #ff2323;">
+              FIRE
+            </div>
+            <div class="tipo" style="--cor-fundo: #7cffda;">
+              FLYING
+            </div>
+            <div class="tipo" style="--cor-fundo: #e42f7e;">
+              PSYQUIC
+            </div>
+            <div class="tipo" style="--cor-fundo: #42e7ed;">
+              ICE
+            </div>
+          </div>
+        </div>
+    
+        <div class="grupo-efetividade">
+          <h3>Imunidades</h3>
+          <div class="lista-tipos">
+            <span class="sem-tipos">--</span>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div id="tabelas-golpes"></div>  
+
+    <!-- <script>
+      (() => {
+        const painel = document.createElement("pre");
+        painel.style.cssText =
+          "position:fixed;bottom:0;left:0;right:0;max-height:35vh;overflow:auto;" +
+          "background:#fff;color:#111;border:2px solid #c00;padding:10px;z-index:99999";
+        painel.textContent = "Diagnóstico de scripts:";
+        document.body.appendChild(painel);
+      
+        document.addEventListener("error", (evento) => {
+          const alvo = evento.target;
+          if (alvo instanceof HTMLScriptElement) {
+            painel.textContent += `\nFalha ao carregar: ${alvo.src || "(script inline)"}`;
+          }
+        }, true);
+      
+        window.addEventListener("error", (evento) => {
+          painel.textContent +=
+            `\nErro: ${evento.message || "mensagem ocultada pelo navegador"}` +
+            `\nArquivo: ${evento.filename || "(não informado)"}` +
+            `\nLinha: ${evento.lineno || 0}`;
+        });
+      
+        window.addEventListener("unhandledrejection", (evento) => {
+          painel.textContent += `\nPromessa rejeitada: ${evento.reason}`;
+        });
+      
+        document.addEventListener("DOMContentLoaded", () => {
+          painel.textContent += "\n\nScripts encontrados:\n" +
+            [...document.scripts]
+              .map(s => s.src || "(script inline)")
+              .join("\n");
+        });
+      })();
+      </script> -->
+    <script src="C:\Users\Aluno\Documents\Ana Lu. códigos\Champions guide\logica- guia champions.js" defer></script>
+  </body>
+  </html>
